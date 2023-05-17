@@ -1,0 +1,239 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+colores
+1 black
+2 whitesmoke
+3 rgba(49,50,49,255)
+4 rgba(243,211,163,255) primario
+5 #e4c1a3 secundario
+*/
+/*estilos generales*/
+footer{
+    flex-direction: column;
+    height: 600px;
+    background-color: rgba(49,50,49,255);
+    color: whitesmoke;
+}
+.footer{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 70px;
+}
+.footer div{
+    display: flex;
+    flex-direction: column;
+}
+.footer a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+
+nav{
+    background-color: rgba(243,211,163,255);
+}
+
+/*home*/
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 400px;
+}
+.title-dos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.frase{
+    padding: 30px;
+    text-align: center;
+    background-color: rgba(228,193,161,255);
+}
+.side{
+    background-color:black;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.side p{
+    padding: 30px;
+    font-size: 20px;
+}
+.side .f1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.side .f2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+/*productos y sedes*/
+.text {
+    margin: 30px;
+    padding-left: 60px; }
+/*sedes*/
+.cartas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #e4c1a3;
+}
+.cartas .caja{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-left: black solid 0.5px;
+    border-right: solid black 0.5px;
+    width: 250px;
+    height: 370px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+/*sobre nosotros*/
+#nosotros{
+    background: rgb(243,211,163);
+background: linear-gradient(0deg, rgba(243,211,163,1) 52%, rgba(255,255,255,1) 80%);
+}
+.nos-uno{
+    display: flex;
+    flex-direction: column;
+}
+.nos-dos{
+    display: flex;
+    flex-direction: column;
+}
+.joa ,.gon{
+    width: 550px;
+    padding-top: 10px;
+}
+.left{
+    padding: 30px;
+}
+.right{
+    padding: 30px;
+    background-color: rgba(243,211,163,255);
+    text-align: center;
+}
+/*sedes*/
+.cartas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.nos-dos div img{
+    width: 483px;
+}
+.nos-uno div img{
+    width: 483px;
+}
+ /*contacto*/
+#contacto{
+    height: 600px;
+    background-color: rgba(243,211,163,255);
+}
+#formulario{
+    padding-left: 60px;
+    padding-top: 60px;
+}
+
+@media screen and (min-width: 600px){
+    
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;    
+    }
+    .footer{
+        text-align: start;
+    }
+    /*producto*/
+    /*sedes*/
+.cartas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+/*nosotros*/
+.nos-uno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.nos-dos{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+}
+.joa ,.gon{
+    width: 550px;
+    padding: 0;
+}
+
+}
+@media screen and (min-width:1024px){
+
+    /*home*/
+    .side .f1{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .side .f2{
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    /*nosotros*/
+
+    .nos-uno{
+        display: grid;
+        grid-template-columns:3fr 1fr;
+    }
+    .nos-dos{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+    .left{
+        padding: 30px;
+    }
+    .right{
+        padding: 30px;
+        background-color: rgba(243,211,163,255);
+        text-align: center;}
+
+}
