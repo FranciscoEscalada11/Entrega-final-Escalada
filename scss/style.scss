@@ -1,0 +1,42 @@
+/*reset*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*estilos generales*/
+nav{
+    background-color: rgba(243,211,163,255);
+}
+footer{
+    flex-direction: column;
+    height: 600px;
+    background-color: rgba(49,50,49,255);
+    color: whitesmoke;
+    .footer{
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        padding: 70px;
+        .columna{
+            display: flex;
+            flex-direction: column;
+            a{
+                text-decoration: none;
+                color: whitesmoke;
+            }
+        }
+    }
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+/*imports*/
+@import "html/index";
+@import "html/producto.scss";
+@import "html/sedes";
+@import "html/nosotros";
+@import "html/contacto";
+@import "html/mq";
+

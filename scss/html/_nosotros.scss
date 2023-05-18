@@ -1,0 +1,29 @@
+/*Estilos de sobre nosotros*/
+#nosotros{
+    background: rgb(243,211,163);
+    background: linear-gradient(0deg, rgba(243,211,163,1) 52%, rgba(255,255,255,1) 80%);
+    .nos-uno{
+        display: flex;
+        flex-direction: column;
+        .left{
+            padding: 30px;
+        }
+        .joa{
+            width: 550px;
+            padding-top: 10px;
+        }
+    }
+    .nos-dos{
+        display: flex;
+        flex-direction: column;
+        .gon{
+            width: 550px;
+            padding-top: 10px;
+        }
+        .right{
+            padding: 30px;
+            text-align: center;
+            background-color: rgba(243,211,163,255);
+        }
+    }
+}

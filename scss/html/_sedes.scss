@@ -1,0 +1,25 @@
+/*estilos de sedes*/
+main{
+    .cartas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background-color: #e4c1a3;
+        .caja{
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            border-left: black solid 0.5px;
+            border-right: solid black 0.5px;
+            width: 250px;
+            height: 370px;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+        }
+    }
+}
