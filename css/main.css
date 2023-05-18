@@ -100,15 +100,15 @@ main .cartas {
   main .cartas .caja {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     padding: 20px;
     border-left: black solid 0.5px;
     border-right: solid black 0.5px;
     width: 250px;
-    height: 370px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    text-align: center; }
+    height: 370px; }
 
 @media screen and (min-width: 600px) {
   main .cartas {
