@@ -25,11 +25,16 @@ footer {
       footer .footer .columna a {
         text-decoration: none;
         color: whitesmoke; }
-
-.footer a:hover {
-  text-decoration: underline; }
+      footer .footer .columna a:hover {
+        text-decoration: underline; }
 
 /*imports*/
+main .frase, #nosotros .nos-dos .right {
+  padding: 30px;
+  text-align: center;
+  font-size: 15px;
+  background-color: #f3d3a3; }
+
 /*estilos de Home*/
 main .title {
   display: flex;

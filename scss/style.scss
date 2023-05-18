@@ -26,11 +26,11 @@ footer{
                 text-decoration: none;
                 color: whitesmoke;
             }
+            a:hover{
+                text-decoration: underline;
+            }
         }
     }
-}
-.footer a:hover{
-    text-decoration: underline;
 }
 /*imports*/
 @import "html/index";
@@ -39,4 +39,3 @@ footer{
 @import "html/nosotros";
 @import "html/contacto";
 @import "html/mq";
-

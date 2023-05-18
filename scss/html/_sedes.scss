@@ -1,5 +1,6 @@
 //import
 @import "../utilidades/mixin";
+@import "../utilidades/variables";
 
 /*estilos de sedes*/
 main{
@@ -10,7 +11,7 @@ main{
         justify-content: center;
         padding-top: 60px;
         padding-bottom: 60px;
-        background-color: #e4c1a3;
+        background-color: $color-dos;
         .caja{
             @include column;
             align-content: center;

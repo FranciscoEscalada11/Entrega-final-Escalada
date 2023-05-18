@@ -1,5 +1,7 @@
 //import
 @import "../utilidades/mixin";
+@import "../utilidades/extend";
+@import "../utilidades/variables";
 /*estilos de Home*/
 main{
     .title{
@@ -19,8 +21,8 @@ main{
         @extend %centrado
     }
     .side{
-        background-color:black;
-        color: whitesmoke;
+        background-color:$color-tres;
+        color: $letra-uno;
         display: flex;
         flex-direction: column;
         justify-content: center;
