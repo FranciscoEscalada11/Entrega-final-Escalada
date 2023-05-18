@@ -16,9 +16,7 @@ main{
         }
     }
     .frase{
-        padding: 30px;
-        text-align: center;
-        background-color: rgba(228,193,161,255);
+        @extend %centrado
     }
     .side{
         background-color:black;

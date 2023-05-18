@@ -43,11 +43,6 @@ main .title {
     align-items: center;
     justify-content: center; }
 
-main .frase {
-  padding: 30px;
-  text-align: center;
-  background-color: #e4c1a1; }
-
 main .side {
   background-color: black;
   color: whitesmoke;
@@ -118,6 +113,12 @@ main .cartas {
     padding-top: 60px;
     padding-bottom: 60px; } }
 
+main .frase, #nosotros .nos-dos .right {
+  padding: 30px;
+  text-align: center;
+  font-size: 15px;
+  background-color: #f3d3a3; }
+
 /*Estilos de sobre nosotros*/
 #nosotros {
   background: #f3d3a3;
@@ -136,10 +137,6 @@ main .cartas {
     #nosotros .nos-dos .gon {
       width: 550px;
       padding-top: 10px; }
-    #nosotros .nos-dos .right {
-      padding: 30px;
-      text-align: center;
-      background-color: #f3d3a3; }
 
 @media screen and (min-width: 600px) {
   #nosotros .nos-uno {
