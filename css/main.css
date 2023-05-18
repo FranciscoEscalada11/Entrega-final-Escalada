@@ -84,6 +84,10 @@ main .side {
     justify-content: center;
     align-items: center; } }
 
+.text {
+  margin: 30px;
+  padding-left: 60px; }
+
 /*estilos de sedes*/
 main .cartas {
   display: flex;

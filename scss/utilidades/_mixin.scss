@@ -1,7 +1,8 @@
 //mixin sin parametros
-@mixin center{
+@mixin column{
+display: flex;
+flex-direction: column;
+text-align: center;
 justify-content: center;
 align-items: center;
-align-content: center;
-text-align: center;
 }
