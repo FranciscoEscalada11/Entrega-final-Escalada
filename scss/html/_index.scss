@@ -49,3 +49,19 @@ main{
         }
     }
 }
+@media screen and (min-width: 1024px){
+    main{
+        .side{
+            .f1{
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+            .f2{
+                flex-direction: row-reverse;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}

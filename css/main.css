@@ -74,6 +74,16 @@ main .side {
       padding: 30px;
       font-size: 20px; }
 
+@media screen and (min-width: 1024px) {
+  main .side .f1 {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+  main .side .f2 {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center; } }
+
 /*estilos de sedes*/
 main .cartas {
   display: flex;
@@ -95,6 +105,14 @@ main .cartas {
     align-items: center;
     align-content: center;
     text-align: center; }
+
+@media screen and (min-width: 600px) {
+  main .cartas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    padding-bottom: 60px; } }
 
 /*Estilos de sobre nosotros*/
 #nosotros {
@@ -119,6 +137,38 @@ main .cartas {
       text-align: center;
       background-color: #f3d3a3; }
 
+@media screen and (min-width: 600px) {
+  #nosotros .nos-uno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center; }
+    #nosotros .nos-uno div .joa {
+      padding: 0;
+      width: 550px; }
+  #nosotros .nos-dos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    #nosotros .nos-dos div .gon {
+      padding: 0;
+      width: 550px; } }
+
+@media screen and (min-width: 1024px) {
+  #nosotros .nos-uno {
+    display: grid;
+    grid-template-columns: 3fr 1fr; }
+    #nosotros .nos-uno .left {
+      padding: 30px; }
+  #nosotros .nos-dos {
+    display: grid;
+    grid-template-columns: 1fr 3fr; }
+    #nosotros .nos-dos .right {
+      padding: 30px;
+      background-color: #f3d3a3;
+      text-align: center; } }
+
 /*Estilos de contacto*/
 #contacto {
   height: 600px;
@@ -136,46 +186,4 @@ main .cartas {
     justify-content: space-evenly;
     align-items: center; }
     footer .footer {
-      text-align: start; }
-  /*sedes*/
-  .cartas {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding-top: 60px;
-    padding-bottom: 60px; }
-  .nos-uno {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-    .nos-uno .joa {
-      width: 550px;
-      padding: 0; }
-  .nos-dos .gon {
-    width: 550px;
-    padding: 0; } }
-
-/*desktop*/
-@media screen and (min-width: 1024px) {
-  /*home*/
-  .side .f1 {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; }
-  .side .f2 {
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center; }
-  /*nosotros*/
-  .nos-uno {
-    display: grid;
-    grid-template-columns: 3fr 1fr; }
-    .nos-uno .left {
-      padding: 30px; }
-  .nos-dos {
-    display: grid;
-    grid-template-columns: 1fr 3fr; }
-    .nos-dos .right {
-      padding: 30px;
-      background-color: #f3d3a3;
-      text-align: center; } }
+      text-align: start; } }

@@ -23,3 +23,15 @@ main{
         }
     }
 }
+@media screen and(min-width: 600px){
+    main{
+        .cartas{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-top: 60px;
+        padding-bottom: 60px;
+      }
+    }
+    
+}
